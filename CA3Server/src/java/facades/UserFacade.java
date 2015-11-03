@@ -15,7 +15,7 @@ public class UserFacade {
     user.AddRole("User");
     users.put(user.getUserName(),user );
     User admin = new User("admin","test");
-    admin.AddRole("Admin");
+    admin.AddRole("Admina");
     users.put(admin.getUserName(),admin);
     
     User both = new User("user_admin","test");
